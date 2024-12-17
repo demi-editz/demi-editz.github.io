@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title> SoonX - Tailwind CSS Coming Soon HTML Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="SoonX - Coming Soon Tailwind CSS 3 HTML Template is a multi purpose landing page template built for any Count Down Web Page, Coming Soon Page, Launching Web, Launching Product Website, agency or business Startup. It’s fully responsive and built Tailwind v3" name="description" />
+    <meta content="Getappui" name="author" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind css Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="tailwind.config.js"></script>
+
+</head>
+
+<body class="font-body tracking-wide">
+
+    <section class="h-screen flex items-center justify-center py-32 relative">
+        <div class="overflow-hidden">
+            <img class="absolute inset-0 h-full w-full object-cover bg-cover bg-bottom" src="images/img-2.jpg" alt="build your website image">
+            <div class="absolute inset-0 w-full h-full bg-black/30 backdrop-blur-sm"></div>
+        </div>
+        <div class="container mx-auto">
+            <div class="text-center text-white relative">
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="md:text-5xl text-3xl font-bold uppercase">Coming soon</h2>
+                    <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac mi lacus, phasellus mollis et nibh et nibh et condimentum. Integer dui diam, ornare a sagittis vel, suscipit et leo.</p>
+                </div>
+
+                <div id="countdown" class="my-14 z-30">
+                    <div class="flex flex-wrap xl:flex-nowrap items-center justify-center gap-5">
+                        <div class="sm:h-36 sm:w-44 h-20 w-20 flex items-center justify-center">
+                            <div class="text-center">
+                                <span id="days" class="text-3xl md:text-6xl text-white"></span>
+                                <p class="text-base font-normal text-white mt-2">Days</p>
+                            </div>
+                        </div>
+
+                        <div class="sm:h-36 sm:w-44 h-20 w-20 flex items-center justify-center">
+                            <div class="text-center">
+                                <span id="hours" class="text-3xl md:text-6xl text-white"></span>
+                                <p class="text-base font-normal text-white mt-2">Hours</p>
+                            </div>
+                        </div>
+
+                        <div class="sm:h-36 sm:w-44 h-20 w-20 flex items-center justify-center">
+                            <div class="text-center">
+                                <span id="minutes" class="text-3xl md:text-6xl text-white"></span>
+                                <p class="text-base font-normal text-white mt-2">Minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="sm:h-36 sm:w-44 h-20 w-20 flex items-center justify-center">
+                            <div class="text-center">
+                                <span id="seconds" class="text-3xl md:text-6xl text-white"></span>
+                                <p class="text-base font-normal text-white mt-2">Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <h3 class="uppercase text-lg">Please subscribe to newsletter to get updates from us.</h3> -->
+                <form class="w-full flex items-center justify-center">
+                    <div class="flex flex-wrap md:flex-nowrap rounded-lg overflow-hidden">
+                        <input type="text" name="email" id="email" class="sm:w-96 w-full mb-5 px-4 py-3 sm:mb-0 sm:border-0 backdrop-blur-sm text-white focus:outline-none focus:ring-0 text-sm bg-white/40 placeholder:text-gray-300" placeholder="Email Address" autocomplete="off">
+                        <button class="py-3 px-6 border-0 text-white font-semibold text-sm bg-blue-500 hover:bg-blue-600 transition-all duration-500">
+                            <span class="uppercase">Notify me!</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
